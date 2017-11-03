@@ -2,13 +2,52 @@
 \usepackage[spanish]{babel} 
 \usepackage[total={6in, 8in}]{geometry}
 \usepackage{amsmath,amsfonts,amsthm} 
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+\usepackage{hyperref}
 \usepackage[utf8]{inputenc}
 \title{Proyecto Demografía Matemática}
-\author{ Alejandro López Hernández $|$ Montoya Franco Luis Angel} % Your name
+\author{  López Hernández Alejandro $|$ Montoya Franco Luis Angel} % Your name
 \date{\normalsize\today} % Today's date or a custom date
 \begin{document}
-\maketitle
+\begin{titlepage}
+	\centering
+	\includegraphics[width=0.15\textwidth]{UNAM}\par\vspace{1cm}
+	{\scshape\LARGE Universidad Nacional Autónoma de México\par}
+	\vspace{1cm}
+	{\scshape\Large Facultad de Estudios Superiores Acatlán\par}
+	\vspace{1.5cm}
+	{\huge\bfseries Proyecto Demografía Matemática \par}
+	\vspace{2cm}
+	{\Large\itshape López Hernández Alejandro \\ Montoya Franco Luis Angel\par}
+	\vfill
+	Profesor\par
+	Ramos López Aram Isai
 
+	\vfill
 
+% Bottom of the page
+	{\large \today\par}
+\end{titlepage}
+\begin{abstract}
+   El objetivo de este proyecto es usar datos poblacionales del estado de Chihauhua para analizarlos y a partir del analisis poder corregirlos y estudiar la estructura poblacional, posteriormente usando las defunciones durante el año 2015 en Chihuahua causadas por agresiones, estimar el efecto que tienen sobre nuestra población ($_u AV_{j}$). 
+\end{abstract}
+
+\section*{Introducción}
+
+\section*{Distribución de la población por grupos etarios}
+\section*{Desegregacion y preferencia al declarar edades}
+\section*{Impacto de los homicidios en la esperanza de vida}
+\section*{Conclusiones}
+\begin{thebibliography}{X}
+\bibitem{CAS} \textsc{Jacob S. Siegel} y \textsc{David A. Swanson}, \textit{The Methods And
+Materials Of Demography}, Segunda edición,
+Elsevier Academic Press, USA, 2004.
+\bibitem{ARR} \textit{Eduardo E. Arriaga}\textit{ Los Años Vida Perdidos: Su Utilización Para Medir El Nivel y Cambio de la Mortalidad} , \textsc{U.S. Bureau of the Census} 
+\bibitem{DAT} Defunciones registradas durante el año 2015 (Consultado el 29 de Octubre de 2017)  \url{https://datos.gob.mx/busca/dataset/estadistica-de-defunciones-registradas/resource/c346a78b-d91c-431c-8d2b-2f0831d3163c} Consultado el 29 de Octubre de 2017 
+\bibitem{INE} Datos poblacionales de la encuesta intercensal 2015 (Consultado el 29 de Octubre de 2017 ) \url{http://www.beta.inegi.org.mx/proyectos/enchogares/especiales/intercensal/} 
+\bibitem{CON} Proyecciones de población de la CONAPO (Consultado el 31 de Octubre de 2017) \url{http://www.conapo.gob.mx/es/CONAPO/Proyecciones} 
+\bibitem{REP} Repositorio en GitHub con todos los procedimientos usados en este documento \url{https://github.com/aleespa/Demografia}
+\end{thebibliography}
 
 \end{document}
